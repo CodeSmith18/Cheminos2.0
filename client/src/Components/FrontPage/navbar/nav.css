@@ -32,6 +32,7 @@
 }
 
 .navbar-container {
+	margin-top: 0px;
 	display: flex;
 	justify-content: space-between;
 	height: 68px;
@@ -115,6 +116,7 @@ a:hover:after {
 	}
 
 	.navbar-container {
+		top: 0px;
 		display: block;
 		position: relative;
 		height: 64px;
@@ -134,9 +136,9 @@ a:hover:after {
 
 	.navbar-container .hamburger-lines {
 		display: block;
-		height: 28px;
+		height: 25px;
 		width: 35px;
-		position: absolute;
+		position: relative;
 		top: 20px;
 		left: 20px;
 		z-index: 2;

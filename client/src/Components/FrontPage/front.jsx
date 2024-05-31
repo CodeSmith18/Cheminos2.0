@@ -8,6 +8,7 @@ function Front() {
 				<Nav />
 			</div> */}
 			<div>
+				{/* <Nav /> */}
 				<Cont />
 			</div>
 		</div>
