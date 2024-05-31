@@ -1,94 +1,21 @@
 import React from "react";
 import "./dashboard.css";
+import Dashcard from "./DashboardLinls/Dashcard";
+
+const renderFrom =  [1,2,3,4,5,6];
+   
+
+
 const Dashboard = () => {
-	return (
-		<div className="full">
-			<div className="one">
-				<div>
-					<h2 className="a">lorem ipsum</h2>
-				</div>
-				<div className="t">
-					"Lorem ipsum dolor sit amet. non soluta provident qui labore sequi."
-				</div>
-				<div className="i">
-					<img src="https://shorturl.at/OZR86" alt="" srcset="" />
-				</div>
-				<div className="b">
-					<button>Get started</button>
-				</div>
-			</div>
-			<div className="one">
-				<div>
-					<h2 className="a">lorem ipsum</h2>
-				</div>
-				<div className="t">
-					"Lorem ipsum dolor sit amet. non soluta provident qui labore sequi."
-				</div>
-				<div className="i">
-					<img src="https://shorturl.at/OZR86" alt="" srcset="" />
-				</div>
-				<div className="b">
-					<button>Get started</button>
-				</div>
-			</div>
-			<div className="one">
-				<div>
-					<h2 className="a">lorem ipsum</h2>
-				</div>
-				<div className="t">
-					"Lorem ipsum dolor sit amet. non soluta provident qui labore sequi."
-				</div>
-				<div className="i">
-					<img src="https://shorturl.at/OZR86" alt="" srcset="" />
-				</div>
-				<div className="b">
-					<button>Get started</button>
-				</div>
-			</div>
-			<div className="one">
-				<div>
-					<h2 className="a">lorem ipsum</h2>
-				</div>
-				<div className="t">
-					"Lorem ipsum dolor sit amet. non soluta provident qui labore sequi."
-				</div>
-				<div className="i">
-					<img src="https://shorturl.at/OZR86" alt="" srcset="" />
-				</div>
-				<div className="b">
-					<button>Get started</button>
-				</div>
-			</div>
-			<div className="one">
-				<div>
-					<h2 className="a">lorem ipsum</h2>
-				</div>
-				<div className="t">
-					"Lorem ipsum dolor sit amet. non soluta provident qui labore sequi."
-				</div>
-				<div className="i">
-					<img src="https://shorturl.at/OZR86" alt="" srcset="" />
-				</div>
-				<div className="b">
-					<button>Get started</button>
-				</div>
-			</div>
-			<div className="one">
-				<div>
-					<h2 className="a">lorem ipsum</h2>
-				</div>
-				<div className="t">
-					"Lorem ipsum dolor sit amet. non soluta provident qui labore sequi."
-				</div>
-				<div className="i">
-					<img src="https://shorturl.at/OZR86" alt="" srcset="" />
-				</div>
-				<div className="b">
-					<button>Get started</button>
-				</div>
-			</div>
-			<div className="two"></div>
-		</div>
-	);
+    return (
+        <div className="full">
+            {renderFrom.map((item, index) => {
+                return (
+                    <Dashcard key={index} /> 
+                );
+            })}
+        </div>
+    );
 };
+
 export default Dashboard;

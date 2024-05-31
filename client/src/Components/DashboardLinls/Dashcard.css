@@ -1,0 +1,47 @@
+/* Card styling */
+.one {
+    height: 260px;
+    width: 260px;
+    border: 2px solid rgb(0, 116, 0);
+    border-radius: 12px;
+    overflow: hidden; /* Hide overflow for smooth transition */
+    transition: border-color 0.9 ease-in-out; /* Smooth transition for border color */
+}
+
+/* Hover effect */
+.one:hover {
+    border-color: rgb(0, 194, 0);
+    transform: scale(1.1); /* Increase size on hover */
+}
+
+/* Text alignment */
+.a, .t, .b, .i {
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Button styling */
+.b button {
+    width: 100px;
+    margin-top: 20px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(0, 212, 4);
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.b button:hover {
+    background-color: rgb(0, 192, 0);
+}
+
+/* Image styling */
+.i img {
+    margin-top: 10px;
+    height: 70px;
+    border-radius: 15px;
+}
