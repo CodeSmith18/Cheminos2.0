@@ -1,17 +1,17 @@
 /* Card styling */
 .one {
-    height: 260px;
-    width: 260px;
+    height: 17rem;
+    width: 15rem;
     border: 2px solid rgb(0, 116, 0);
     border-radius: 12px;
     overflow: hidden; /* Hide overflow for smooth transition */
-    transition: border-color 0.9 ease-in-out; /* Smooth transition for border color */
+    transition:  0.9 ease-in-out; /* Smooth transition for border color */
 }
 
 /* Hover effect */
 .one:hover {
     border-color: rgb(0, 194, 0);
-    transform: scale(1.1); /* Increase size on hover */
+    transform: scale(0.9); /* Increase size on hover */
 }
 
 /* Text alignment */
