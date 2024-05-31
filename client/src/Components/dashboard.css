@@ -1,10 +1,19 @@
 .full {
-	width:100vw;
+	width: 80%;
 	margin-left: 10px;
-    margin-top: 3rem;
-    display: grid;
-    grid-template-columns: repeat(3, .1fr); /* Three columns with equal width */
-    gap: 35px;
-    justify-content: center; /* Center the grid horizontally */
-    align-items: center; /* Center the grid vertically */
+	margin-top: 3rem;
+	flex-wrap: wrap;
+	display: flex;
+
+	/* grid-template-columns: repeat(3, 0.1fr); /* Three columns with equal width */
+	gap: 35px;
+	justify-content: center; /* Center the grid horizontally */
+	align-items: center; /* Center the grid vertically */
+	/* margin-left: 12%; */
+}
+.baap {
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
