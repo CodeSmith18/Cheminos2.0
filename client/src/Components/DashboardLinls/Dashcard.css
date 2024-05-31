@@ -5,7 +5,7 @@
     border: 2px solid rgb(0, 116, 0);
     border-radius: 12px;
     overflow: hidden; /* Hide overflow for smooth transition */
-    transition:  0.9 ease-in-out; /* Smooth transition for border color */
+    transition:linear 0.1s /* Smooth transition for border color */
 }
 
 /* Hover effect */
