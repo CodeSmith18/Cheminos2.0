@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=IBM%20Plex%20Sans:500|IBM%20Plex%20Sans:300");
+
 * {
   scroll-behavior: smooth;
 }
@@ -148,8 +150,6 @@ button:hover {
 		margin-right: 13%;
 	}
 }
-
-@import url("https://fonts.googleapis.com/css?family=IBM%20Plex%20Sans:500|IBM%20Plex%20Sans:300");
 
 :root {
   --m: 4rem;
