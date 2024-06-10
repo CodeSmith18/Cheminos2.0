@@ -5,7 +5,20 @@
 }
 
 body {
-  background-color: black;
+  background: rgb(0,0,0);
+  background-image: linear-gradient(
+  235deg,
+  hsl(145deg 91% 56%) 0%,
+  hsl(148deg 100% 43%) -1%,
+  hsl(144deg 100% 37%) -1%,
+  hsl(139deg 100% 32%) -1%,
+  hsl(132deg 100% 27%) -2%,
+  hsl(120deg 100% 22%) -1%,
+  hsl(120deg 100% 17%) -1%,
+  hsl(120deg 100% 12%) 1%,
+  hsl(120deg 100% 9%) 7%,
+  hsl(0deg 0% 0%) 28%
+);
   color: white;
   font-family: "IBM Plex Sans";
   font-weight: 300;
@@ -23,12 +36,15 @@ body {
 	font-weight: bold;
 }
 
+.amet {
+  color: #00d458;
+}
 .subheading {
 	text-align: center;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 35%;
+	margin-right: 35%;
 	margin-top: 15px;
-	font-style: italic;
+  font-size: small;
 }
 
 .Img1 img {

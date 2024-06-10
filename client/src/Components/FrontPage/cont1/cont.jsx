@@ -4,9 +4,9 @@ import i from "./laptop.png";
 function Cont() {
 	return (
 		<div className="main">
+			<div class="fixed">
 			<div className="heading_text">
-				Lorem ipsum dolor sit amet. Hic omnis quae quae qui beatae dolores est
-				omnis.
+				LOREM IPSUM DOLOR<br/>SIT <span class="amet">AMET.</span>
 			</div>
 			<div className="subheading">
 				"Lorem ipsum dolor sit amet. Sit reprehenderit similique non soluta
@@ -33,7 +33,7 @@ function Cont() {
 					</div>
 				</div>
 			</div>
-
+			</div>
 			
 
 			<footer id="footer">
