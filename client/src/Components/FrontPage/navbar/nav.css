@@ -48,6 +48,9 @@
 .logo {
 	order: 1;
 	font-size: 2.3rem;
+	background: linear-gradient(to right, #ffffff, #929292,#ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .menu-items li {
