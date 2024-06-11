@@ -9,13 +9,13 @@ const Login = ()=>{
         <h1 style={{textAlign:"center"}}>Login</h1>
         <div className="form">
             <form  className="login-form">
-                <input type="text" placeholder="username"/>
+                <input type="text" placeholder="Username"/>
                 <input type="password" name="" id="" placeholder="Password" />
                 <button>Login</button>
                 <p className="message">Not Registered? <a href="#">Create an account</a></p>
             </form>
             <button className="login-with-google-btn" onClick={loginwithgoogle}>
-                Sing In With Google
+                Sign In With Google
             </button>
         </div>
       </div>

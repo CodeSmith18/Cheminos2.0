@@ -15,33 +15,33 @@ function Nav() {
 					<span className="line line2"></span>
 					<span className="line line3"></span>
 				</div>
-				<div>
-					<h1 className="logo">Cheminos</h1>
-				</div>
-				<center>
 				<ul className="menu-items">
 					<li>
 						<a href="#">Home</a>
 					</li>
 					<li>
-						<a href="#">Courses</a>
+						<a href="#">Home</a>
 					</li>
 					<li>
-						<a href="#">FAQ</a>
+						<a href="#">Home</a>
 					</li>
 					<li>
-						<a href="#">Contact Us</a>
+						<a href="#">Home</a>
 					</li>
-				</ul>
-				</center>
-				<div>
-				<NavLink to="/login">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<NavLink to="/login">
 							<button className="login" onClick={tel}>
 								Login
 							</button>
-				</NavLink>
+						</NavLink>
+					</li>
+				</ul>
+				<div>
+					<h1 className="logo">Cheminos</h1>
 				</div>
-				
 			</div>
 		</nav>
 	);
