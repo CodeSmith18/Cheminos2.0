@@ -5,7 +5,7 @@ import Headers from "./Components/Headers";
 import Login from "./Components/Login";
 import Dashboard from "./Components/DashBoard";
 import Nav from "./Components/FrontPage/navbar/nav";
-
+import Cardd from "./Components/DashboardLinls/deleteme";
 import "./App.css";
 
 function App() {
@@ -14,6 +14,7 @@ function App() {
 			<Nav />
 			<Routes>
 				<Route path="/" element={<Front />} />
+				<Route path="/deleteme" element={<Cardd />} />
 				<Route path="/login" element={<Login />} />
 				<Route path="/dashboard" element={<Dashboard />} />
 			</Routes>

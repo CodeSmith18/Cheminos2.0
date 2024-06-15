@@ -1,19 +1,23 @@
+/* dashboard.css
+ */
+/* .baap {
+	margin: 100px;
+	max-width: 1100px;
+	margin-top: 50px;
+} */
 .full {
-	width: 80%;
-	margin-left: 10px;
-	margin-top: 3rem;
+	max-width: 1100px;
+	display: flex;
 	flex-wrap: wrap;
-	display: flex;
-
-	/* grid-template-columns: repeat(3, 0.1fr); /* Three columns with equal width */
-	gap: 35px;
-	justify-content: center; /* Center the grid horizontally */
-	align-items: center; /* Center the grid vertically */
-	/* margin-left: 12%; */
-}
-.baap {
-	margin-left: 20px;
-	display: flex;
-	justify-content: center;
 	align-items: center;
+	justify-content: center;
+	gap: 70px;
+
+	/* Space between the grid items */
+}
+@media (max-width: 1000px) {
+	.baap {
+		margin: 0px;
+		margin-top: 50px;
+	}
 }
