@@ -1,8 +1,13 @@
 import React from "react";
 import "./nav.css";
+import { useAuth0 } from "@auth0/auth0-react";
 import { NavLink, useNavigate } from "react-router-dom";
 function Nav() {
+	const { user, loginWithRedirect, isAuthenticated } = useAuth0();
 	const navigate = useNavigate();
+	if (isAuthenticated) {
+		console.log(user);
+	}
 	function tel() {
 		navigate("/login");
 	}
@@ -33,7 +38,7 @@ function Nav() {
 					</li>
 					<li>
 						<NavLink to="/login">
-							<button className="login" onClick={tel}>
+							<button className="login" onClick={() => loginWithRedirect()}>
 								Login
 							</button>
 						</NavLink>
